@@ -485,7 +485,7 @@ input:checked+.sliderSml:before {
     background-color: transparent;
 }
 #healthValue {
-	color: var(--white);
+	color: var(--accent);
     font-size: 64px;
     text-shadow: 8px 4px var(--black);
     filter: drop-shadow(2px 2px var( --black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
@@ -494,7 +494,7 @@ input:checked+.sliderSml:before {
     content: "HP";
     font-size: 24px;
     margin-left: 1px;
-    color: var(--white);
+    color: var(--accent);
     text-shadow: 4px 2px var(--outline);   
 }
 #healthBar {
@@ -541,7 +541,7 @@ input:checked+.sliderSml:before {
 }
 
 #ammoVal {
-    color: var(--white);
+    color: var(--accent);
     font-size: 96px;
     display: inline-block;
     position: fixed;
